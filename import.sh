@@ -4,3 +4,5 @@ dst=src/main/resources/org/kohsuke/stapler/require
 wget -O $dst/require.js     http://requirejs.org/docs/release/$tag/comments/require.js
 wget -O $dst/require-min.js http://requirejs.org/docs/release/$tag/minified/require.js
 mvn -B release:update-versions -DdevelopmentVersion=$tag-1-SNAPSHOT
+
+wget -O $dst/text.js        https://github.com/requirejs/text/raw/2.0.3/text.js
