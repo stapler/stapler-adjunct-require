@@ -1,0 +1,6 @@
+<!--
+Use it like <st:adjunct include="org.kohsuke.stapler.require"/>
+-->
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler">
+  <script src="${it.packageUrl}/require/require{it.manager.debug?'-min':''}.js" type="text/javascript" />
+</j:jelly>
